@@ -102,7 +102,11 @@
         "aside[aria-label*=\"Premium\"]",
         "[aria-label=\"Who to follow\"]",
         "[aria-label=\"Wem folgen\"]",
-        "[aria-label=\"Timeline: Carousel\"]"
+        "[aria-label=\"Timeline: Carousel\"]",
+        "[data-testid=\"AudioSpacesDockExpanded\"]",
+        "[data-testid=\"AudioSpacesDockCollapsed\"]",
+        "[aria-label=\"Spaces\"]",
+        "[aria-label=\"Spaces\" i][role=\"button\"]"
       ],
       "adMarkers": [
         "Ad",
@@ -170,6 +174,9 @@
         "[aria-label=\"Reels und Kurzvideos\"]",
         "[aria-label=\"Create a story\"]",
         "[aria-label=\"Story erstellen\"]",
+        "[data-pagelet=\"Stories\"]",
+        "[aria-label=\"Stories\"]",
+        "[aria-label=\"Storys\"]",
         "[aria-label=\"Conversation information\"]",
         "[aria-label=\"Unterhaltungsinformationen\"]",
         "[aria-label=\"Chat info\"]",
@@ -342,7 +349,7 @@
     }
   },
   "app": {
-    "latestVersion": "0.43.0",
+    "latestVersion": "0.44.0",
     "url": "https://github.com/ChrissiKey/stillfeed/releases"
   }
 }
