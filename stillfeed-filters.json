@@ -1,0 +1,348 @@
+{
+  "version": 1,
+  "platforms": {
+    "reddit": {
+      "hide": [
+        "shreddit-ad-post",
+        "shreddit-comments-page-ad",
+        "shreddit-sidebar-ad",
+        "shreddit-dynamic-ad-link",
+        "[data-testid=\"ad-post\"]",
+        "[data-promoted=\"true\"]",
+        "xpromo-app-selector",
+        "xpromo-nsfw-blocking-modal",
+        "shreddit-async-loader[bundlename=\"xpromo\"]",
+        "shreddit-async-loader[bundlename*=\"ad_\"]",
+        "#advertise-button",
+        "a[href*=\"/advertising\"]",
+        "a[href*=\"redditinc.com/advertise\"]",
+        "shreddit-app-download-banner",
+        ".promotedlink",
+        ".ad-container",
+        "#ad_1",
+        ".sponsorshipbox",
+        ".premium-banner-outer",
+        ".goldvertisement",
+        ".infobar.newsletterbar",
+        "#redesign-beta-optin-btn"
+      ],
+      "adMarkers": [
+        "Promoted",
+        "Sponsored",
+        "Gesponsert",
+        "Anzeige",
+        "Beworben"
+      ],
+      "post": [
+        "shreddit-post",
+        "article",
+        "[data-testid=\"post-container\"]",
+        ".thing"
+      ],
+      "feed": [
+        "shreddit-feed",
+        "#main-content",
+        "main",
+        "shreddit-app",
+        "#siteTable"
+      ],
+      "composer": [
+        "shreddit-composer",
+        "comment-composer-host",
+        "shreddit-comment-action-row [slot=\"comment-reply\"]",
+        "button[aria-label=\"Reply\"]",
+        "button[aria-label=\"Antworten\"]",
+        "faceplate-tracker[noun=\"create_post\"]",
+        "#create-post",
+        "a[href=\"/submit\"]",
+        "a[href$=\"/submit\"]",
+        "a[href*=\"/submit?\"]",
+        "[data-testid=\"create-post-button\"]",
+        ".commentarea > .usertext",
+        ".usertext-edit",
+        ".reply-button",
+        "a[data-event-action=\"reply\"]",
+        ".submit-link",
+        ".submit-text",
+        ".sidebox.submit",
+        "#header-bottom-right .user"
+      ],
+      "allowInputPaths": [
+        "/login",
+        "/register",
+        "/account",
+        "/password"
+      ],
+      "messenger": [],
+      "reactions": [
+        "button[upvote]",
+        "button[downvote]",
+        "[aria-label=\"upvote\" i]",
+        "[aria-label=\"downvote\" i]",
+        "shreddit-comment-action-row button[aria-label*=\"vote\" i]",
+        ".midcol .arrow",
+        ".arrow.up",
+        ".arrow.down"
+      ],
+      "replyTexts": [
+        "Reply",
+        "Antworten"
+      ],
+      "css": [],
+      "lockInputs": true,
+      "shadowDom": true
+    },
+    "twitter": {
+      "hide": [
+        "[data-testid=\"inlinePrompt\"]",
+        "[data-testid=\"BottomBar\"]",
+        "a[href=\"/i/premium_sign_up\"]",
+        "a[href*=\"/i/verified-choose\"]",
+        "a[href*=\"/i/premium\"]",
+        "aside[aria-label*=\"Premium\"]",
+        "[aria-label=\"Who to follow\"]",
+        "[aria-label=\"Wem folgen\"]",
+        "[aria-label=\"Timeline: Carousel\"]"
+      ],
+      "adMarkers": [
+        "Ad",
+        "Anzeige",
+        "Promoted",
+        "Gesponsert",
+        "Sponsored"
+      ],
+      "post": [
+        "article[data-testid=\"tweet\"]",
+        "[data-testid=\"cellInnerDiv\"]"
+      ],
+      "feed": [
+        "[data-testid=\"primaryColumn\"]",
+        "main",
+        "section[role=\"region\"]",
+        "[aria-label*=\"Timeline\"]"
+      ],
+      "composer": [
+        "[data-testid=\"SideNav_NewTweet_Button\"]",
+        "[data-testid=\"tweetButtonInline\"]",
+        "[data-testid=\"tweetButton\"]",
+        "[data-testid=\"toolBar\"]",
+        "[data-testid=\"tweetTextarea_0\"]",
+        "[data-testid=\"tweetTextarea_0_label\"]",
+        "a[href=\"/compose/post\"]",
+        "a[href=\"/compose/tweet\"]",
+        "[data-testid=\"reply\"]",
+        "[data-testid=\"retweet\"]",
+        "[aria-label=\"Reply\"]",
+        "[aria-label=\"Antworten\"]"
+      ],
+      "allowInputPaths": [
+        "/i/flow/login",
+        "/i/flow/signup",
+        "/login",
+        "/search",
+        "/explore",
+        "/account/access"
+      ],
+      "messenger": [],
+      "reactions": [
+        "[data-testid=\"like\"]",
+        "[data-testid=\"unlike\"]"
+      ],
+      "replyTexts": [],
+      "css": [
+        "article [role=\"group\"] > div:has([data-testid=\"reply\"]) { display: none !important; }",
+        "article [role=\"group\"] > div:has([data-testid=\"retweet\"]) { display: none !important; }",
+        "article [role=\"group\"] { justify-content: center !important; gap: 36px !important; }",
+        "article [role=\"group\"] > div { flex: 0 0 auto !important; }"
+      ],
+      "lockInputs": true,
+      "shadowDom": false
+    },
+    "facebook": {
+      "hide": [
+        "[aria-label=\"Sponsored\"]",
+        "[aria-label=\"Gesponsert\"]",
+        "a[href*=\"/ads/about\"]",
+        "a[href*=\"/business/help\"]",
+        "[data-pagelet=\"RightRail\"]",
+        "[data-pagelet^=\"VideoChatHomeUnit\"]",
+        "[aria-label=\"Reels and short videos\"]",
+        "[aria-label=\"Reels und Kurzvideos\"]",
+        "[aria-label=\"Create a story\"]",
+        "[aria-label=\"Story erstellen\"]",
+        "[aria-label=\"Conversation information\"]",
+        "[aria-label=\"Unterhaltungsinformationen\"]",
+        "[aria-label=\"Chat info\"]",
+        "[aria-label=\"Chat-Info\"]",
+        "[aria-label=\"Thread details\"]",
+        "div[role=\"button\"][aria-label=\"Neue Nachricht\"]",
+        "div[role=\"button\"][aria-label=\"New message\"]",
+        "div[role=\"button\"][aria-label=\"Neuer Chat\"]",
+        "div[role=\"button\"][aria-label=\"New chat\"]"
+      ],
+      "adMarkers": [
+        "Sponsored",
+        "Gesponsert",
+        "Anzeige",
+        "Suggested for you",
+        "Vorgeschlagen für dich",
+        "Vorgeschlagene Beiträge",
+        "Suggested posts",
+        "Vorschläge",
+        "Vorschläge für dich",
+        "Suggested",
+        "Join",
+        "Beitreten",
+        "Join group",
+        "Gruppe beitreten",
+        "Follow",
+        "Folgen",
+        "People you may know",
+        "Personen, die du kennen könntest",
+        "Reels and short videos",
+        "Reels und Kurzvideos",
+        "Suggested groups",
+        "Vorgeschlagene Gruppen",
+        "Suggested Reels",
+        "Vorgeschlagene Reels",
+        "Reels"
+      ],
+      "post": [
+        "[role=\"article\"]",
+        "div[data-pagelet^=\"FeedUnit\"]",
+        "[data-ad-preview]",
+        "[role=\"feed\"] > div"
+      ],
+      "feed": [
+        "[role=\"feed\"]",
+        "[role=\"main\"]",
+        "[data-pagelet=\"MainFeed\"]"
+      ],
+      "composer": [
+        "[data-pagelet=\"FeedComposer\"]",
+        "[aria-label=\"Create a post\"]",
+        "[aria-label=\"Beitrag erstellen\"]",
+        "[aria-label=\"Erstellen\"]",
+        "[aria-label=\"Create\"]",
+        "[aria-label=\"Write a comment…\"]",
+        "[aria-label=\"Schreibe einen Kommentar …\"]",
+        "[aria-label=\"Write a public comment…\"]",
+        "[aria-label=\"Schreibe einen öffentlichen Kommentar …\"]",
+        "[aria-label=\"Share\"]",
+        "[aria-label=\"Teilen\"]",
+        "[aria-label=\"Send this to friends or post it on your profile.\"]",
+        "[aria-label=\"Sende dies an Freunde oder poste es in deinem Profil.\"]"
+      ],
+      "allowInputPaths": [
+        "/login",
+        "/checkpoint",
+        "/two_step_verification",
+        "/recover",
+        "/messages",
+        "/t/",
+        "/messenger"
+      ],
+      "messenger": [
+        "[data-pagelet^=\"MWChatTab\"]",
+        "[data-pagelet=\"ChatTab\"]",
+        "[aria-label=\"Chats\"]",
+        "[aria-label=\"New message\"]",
+        "[aria-label=\"Neue Nachricht\"]",
+        "[aria-label*=\"Conversation with\"]",
+        "[aria-label*=\"Unterhaltung mit\"]",
+        "[role=\"dialog\"][aria-label*=\"Nachricht\"]",
+        "[role=\"dialog\"][aria-label*=\"Message\"]",
+        "[role=\"main\"][aria-label*=\"Chats\"]"
+      ],
+      "reactions": [
+        "[aria-label=\"Like\"]",
+        "[aria-label=\"Gefällt mir\"]",
+        "[aria-label=\"Remove Like\"]",
+        "[aria-label=\"Gefällt mir entfernen\"]",
+        "[aria-label=\"React\"]",
+        "[aria-label=\"Reagieren\"]",
+        "[aria-label=\"Reaktion entfernen\"]",
+        "[aria-label=\"Remove reaction\"]"
+      ],
+      "replyTexts": [
+        "Antworten",
+        "Reply"
+      ],
+      "css": [],
+      "lockInputs": true,
+      "shadowDom": false
+    },
+    "instagram": {
+      "hide": [
+        "a[href*=\"threads.net\"]",
+        "a[href*=\"threads.com\"]",
+        "[aria-label=\"Threads\"]",
+        "[aria-label=\"New post\"]",
+        "[aria-label=\"Neuer Beitrag\"]",
+        "a[href*=\"play.google.com\"]",
+        "a[href*=\"apps.apple.com\"]",
+        "a[href*=\"onelink.me\"]",
+        "[data-testid=\"login-app-banner\"]",
+        "div[role=\"dialog\"] a[href*=\"/download\"]",
+        "div[role=\"tablist\"]",
+        "nav[aria-label=\"Tabs\"]"
+      ],
+      "adMarkers": [
+        "Sponsored",
+        "Gesponsert",
+        "Anzeige",
+        "Ad"
+      ],
+      "post": [
+        "article"
+      ],
+      "feed": [
+        "main",
+        "[role=\"main\"]",
+        "section > main"
+      ],
+      "composer": [
+        "form[method=\"POST\"]",
+        "textarea[aria-label*=\"comment\" i]",
+        "textarea[aria-label*=\"Kommentar\" i]",
+        "textarea[aria-label*=\"Kommentier\" i]",
+        "[contenteditable][aria-label*=\"comment\" i]",
+        "[contenteditable][aria-label*=\"Kommentar\" i]",
+        "form[method=\"POST\"] textarea",
+        "svg[aria-label=\"Comment\"]",
+        "svg[aria-label=\"Kommentieren\"]",
+        "svg[aria-label=\"Share Post\"]",
+        "svg[aria-label=\"Share\"]",
+        "svg[aria-label=\"Beitrag teilen\"]",
+        "svg[aria-label=\"Teilen\"]",
+        "[aria-label=\"Add a comment…\"]",
+        "[aria-label=\"Kommentieren …\"]"
+      ],
+      "allowInputPaths": [
+        "/accounts/",
+        "/challenge",
+        "/two_factor"
+      ],
+      "messenger": [],
+      "reactions": [
+        "svg[aria-label=\"Like\"]",
+        "svg[aria-label=\"Unlike\"]",
+        "svg[aria-label=\"Gefällt mir\"]",
+        "svg[aria-label=\"Gefällt mir nicht mehr\"]"
+      ],
+      "replyTexts": [
+        "Antworten",
+        "Reply",
+        "Posten",
+        "Post"
+      ],
+      "css": [],
+      "lockInputs": true,
+      "shadowDom": false
+    }
+  },
+  "app": {
+    "latestVersion": "0.42.0",
+    "url": "https://github.com/ChrissiKey/stillfeed/releases"
+  }
+}
