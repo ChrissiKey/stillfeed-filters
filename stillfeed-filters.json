@@ -349,7 +349,7 @@
     }
   },
   "app": {
-    "latestVersion": "0.60.0",
+    "latestVersion": "0.60.1",
     "url": "https://github.com/ChrissiKey/stillfeed-app/releases/latest"
   }
 }
